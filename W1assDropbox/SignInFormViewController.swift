@@ -15,6 +15,10 @@ class SignInFormViewController: UIViewController {
 
         
     }
+    
+    @IBAction func didPressWelcome(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+    }
 
     
 }
