@@ -13,7 +13,7 @@ class SignInAccountRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-           performSegue(withIdentifier: "existingaccountSegue", sender: nil)
+        performSegue(withIdentifier: "existingaccountSegue", sender: nil)
     }
 
     
