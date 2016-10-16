@@ -130,9 +130,12 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RNQ-5l-duh" userLabel="&lt; Welcome">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RNQ-5l-duh" userLabel="Back">
                                 <frame key="frameInset" minY="11" width="117" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapWelcome:" destination="QGz-aA-wJ4" eventType="touchUpInside" id="2A7-aq-gcb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -146,7 +149,7 @@
         <!--Sign In Account Root View Controller-->
         <scene sceneID="aSr-aa-dq1">
             <objects>
-                <viewController id="DV1-z3-1nJ" userLabel="Sign In Account Root View Controller" customClass="SignInRootViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DV1-z3-1nJ" userLabel="Sign In Account Root View Controller" customClass="SignInAccountRootViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c3q-DL-0Sl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,7 +220,7 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T3K-37-IBv" userLabel="&lt; Welcome">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T3K-37-IBv" userLabel="Back">
                                 <frame key="frameInset" minY="9" width="134" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>

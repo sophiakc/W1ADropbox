@@ -16,5 +16,8 @@ class CreateAccountFormViewController: UIViewController {
         
     }
 
+    @IBAction func onTapWelcome(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+    }
     
 }
