@@ -1,5 +1,5 @@
 //
-//  SignedOutViewController.swift
+//  CreateAccountFormViewController.swift
 //  W1assDropbox
 //
 //  Created by Sophia KC on 16/10/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignedOutViewController: UIViewController {
+class CreateAccountFormViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,13 +16,8 @@ class SignedOutViewController: UIViewController {
         
     }
 
-  
     
     @IBAction func onTapWelcome(_ sender: AnyObject) {
-        navigationController!.popViewController(animated: true)
-    }
-    
-    @IBAction func onTapWelcome2(_ sender: AnyObject) {
         navigationController!.popViewController(animated: true)
     }
 }

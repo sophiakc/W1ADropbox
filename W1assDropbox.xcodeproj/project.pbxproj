@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E753C571DB4294800EBE4A3 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C561DB4294800EBE4A3 /* CreateAccountRootViewController.swift */; };
 		7E753C671DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C661DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift */; };
-		7E753C691DB4516D00EBE4A3 /* SignedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */; };
 		7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */; };
 		7E753C6D1DB4569D00EBE4A3 /* Onboarding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */; };
 		7E753C6F1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */; };
@@ -18,6 +17,8 @@
 		7E753C751DB4638800EBE4A3 /* SignInInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */; };
 		7E753C771DB463A500EBE4A3 /* SignInTroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */; };
 		7E753C791DB46AED00EBE4A3 /* TermsServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C781DB46AED00EBE4A3 /* TermsServiceViewController.swift */; };
+		7E753C7B1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C7A1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift */; };
+		7E753C7D1DB4A0B000EBE4A3 /* SignInFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C7C1DB4A0B000EBE4A3 /* SignInFormViewController.swift */; };
 		7E91B0EA1DB282610003CFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91B0E91DB282610003CFD0 /* AppDelegate.swift */; };
 		7E91B0EC1DB282610003CFD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91B0EB1DB282610003CFD0 /* ViewController.swift */; };
 		7E91B0EF1DB282610003CFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E91B0ED1DB282610003CFD0 /* Main.storyboard */; };
@@ -47,7 +48,6 @@
 /* Begin PBXFileReference section */
 		7E753C561DB4294800EBE4A3 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		7E753C661DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAccountRootViewController.swift; sourceTree = "<group>"; };
-		7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedOutViewController.swift; sourceTree = "<group>"; };
 		7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewController.swift; sourceTree = "<group>"; };
 		7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding2ViewController.swift; sourceTree = "<group>"; };
 		7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPwd1ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInInputsViewController.swift; sourceTree = "<group>"; };
 		7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTroubleViewController.swift; sourceTree = "<group>"; };
 		7E753C781DB46AED00EBE4A3 /* TermsServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsServiceViewController.swift; sourceTree = "<group>"; };
+		7E753C7A1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountFormViewController.swift; sourceTree = "<group>"; };
+		7E753C7C1DB4A0B000EBE4A3 /* SignInFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFormViewController.swift; sourceTree = "<group>"; };
 		7E91B0E61DB282610003CFD0 /* W1assDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W1assDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E91B0E91DB282610003CFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E91B0EB1DB282610003CFD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +155,6 @@
 			children = (
 				7E753C561DB4294800EBE4A3 /* CreateAccountRootViewController.swift */,
 				7E753C661DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift */,
-				7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */,
 				7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */,
 				7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */,
 				7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */,
@@ -162,6 +163,8 @@
 				7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */,
 				7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */,
 				7E753C781DB46AED00EBE4A3 /* TermsServiceViewController.swift */,
+				7E753C7A1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift */,
+				7E753C7C1DB4A0B000EBE4A3 /* SignInFormViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -303,11 +306,12 @@
 				7E753C671DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift in Sources */,
 				7E753C6D1DB4569D00EBE4A3 /* Onboarding2ViewController.swift in Sources */,
 				7E753C751DB4638800EBE4A3 /* SignInInputsViewController.swift in Sources */,
-				7E753C691DB4516D00EBE4A3 /* SignedOutViewController.swift in Sources */,
 				7E753C791DB46AED00EBE4A3 /* TermsServiceViewController.swift in Sources */,
+				7E753C7D1DB4A0B000EBE4A3 /* SignInFormViewController.swift in Sources */,
 				7E753C771DB463A500EBE4A3 /* SignInTroubleViewController.swift in Sources */,
 				7E753C731DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift in Sources */,
 				7E753C571DB4294800EBE4A3 /* CreateAccountRootViewController.swift in Sources */,
+				7E753C7B1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift in Sources */,
 				7E753C6F1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift in Sources */,
 				7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */,
 				7E91B0EC1DB282610003CFD0 /* ViewController.swift in Sources */,

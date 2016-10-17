@@ -29,7 +29,7 @@
                                 <frame key="frameInset" minX="129" minY="524" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="0S7-uY-XEJ" kind="modal" id="mJ0-BP-SDl"/>
+                                    <segue destination="0S7-uY-XEJ" kind="modal" animates="NO" id="mJ0-BP-SDl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -97,12 +97,15 @@
                                 <frame key="frameInset" minX="96" minY="548" width="186" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="xj7-23-QbI" kind="modal" id="hFC-05-swa"/>
+                                    <segue destination="xj7-23-QbI" kind="modal" animates="NO" id="hFC-05-swa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sWO-Jg-N2B" userLabel="Previous">
                                 <frame key="frameInset" minY="567" width="194" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapPrevious:" destination="r8M-08-MQu" eventType="touchUpInside" id="rnu-nT-Qyf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -150,7 +153,7 @@
         <!--Create Account Form View Controller-->
         <scene sceneID="1ks-aW-eL3">
             <objects>
-                <viewController id="QGz-aA-wJ4" userLabel="Create Account Form View Controller" customClass="SignedOutViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QGz-aA-wJ4" userLabel="Create Account Form View Controller" customClass="CreateAccountFormViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dX1-vq-qmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +180,7 @@
                                 <frame key="frameInset" width="127" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="onTapWelcome:" destination="QGz-aA-wJ4" eventType="touchUpInside" id="2G5-zJ-KvH"/>
+                                    <action selector="onTapWelcome:" destination="QGz-aA-wJ4" eventType="touchUpInside" id="GJR-xp-Fz4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -292,7 +295,7 @@
         <!--Sign In Form View Controller-->
         <scene sceneID="MQV-NK-ieL">
             <objects>
-                <viewController id="Dwb-SV-HWs" userLabel="Sign In Form View Controller" customClass="SignedOutViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dwb-SV-HWs" userLabel="Sign In Form View Controller" customClass="SignInFormViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WCn-Zb-1p9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -301,18 +304,25 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T3K-37-IBv" userLabel="Back">
-                                <frame key="frameInset" minY="9" width="134" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="onTapWelcome2:" destination="Dwb-SV-HWs" eventType="touchUpInside" id="PJE-b8-7xh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fJW-fh-hOZ" userLabel="Email Password">
                                 <frame key="frameInset" minX="134" minY="117" width="241" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="gHQ-lt-0uB" kind="push" id="LlN-IG-Y76"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T3K-37-IBv" userLabel="Back">
+                                <frame key="frameInset" width="134" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapWelcome:" destination="Dwb-SV-HWs" eventType="touchUpInside" id="0lv-tM-Hti"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m0U-RX-exX" userLabel="Having trouble">
+                                <frame key="frameInset" minX="71" minY="222" width="232" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="QPu-iK-Qva" kind="modal" animates="NO" id="Pma-4O-QDh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -470,7 +480,7 @@
         <!--Sign In Inputs View Controller-->
         <scene sceneID="FnP-2l-YGG">
             <objects>
-                <viewController id="gHQ-lt-0uB" userLabel="Sign In Inputs View Controller" sceneMemberID="viewController">
+                <viewController id="gHQ-lt-0uB" userLabel="Sign In Inputs View Controller" customClass="SignInInputsViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QVA-eM-qZa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -483,12 +493,15 @@
                                 <frame key="frameInset" minX="72" minY="230" width="232" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="QPu-iK-Qva" kind="modal" animates="NO" modalTransitionStyle="coverVertical" id="tpL-0h-D6E"/>
+                                    <segue destination="QPu-iK-Qva" kind="modal" animates="NO" id="tpL-0h-D6E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9nU-OY-bBM" userLabel="Back">
                                 <frame key="frameInset" width="127" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapWelcome:" destination="gHQ-lt-0uB" eventType="touchUpInside" id="0ss-Kc-sfV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -502,7 +515,7 @@
         <!--Sign In Trouble View Controller-->
         <scene sceneID="yLt-QB-ojm">
             <objects>
-                <viewController id="QPu-iK-Qva" userLabel="Sign In Trouble View Controller" sceneMemberID="viewController">
+                <viewController id="QPu-iK-Qva" userLabel="Sign In Trouble View Controller" customClass="SignInTroubleViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uqq-qG-YRp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -514,10 +527,17 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mi7-iz-mMk" userLabel="Cancel">
                                 <frame key="frameInset" minY="599" width="375" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapCancel:" destination="QPu-iK-Qva" eventType="touchUpInside" id="edg-Wx-Cy1"/>
+                                    <action selector="onTapOutside:" destination="QPu-iK-Qva" eventType="touchUpInside" id="o4d-dP-306"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p4y-pS-1nP" userLabel="Cancel">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p4y-pS-1nP" userLabel="Cancel area">
                                 <frame key="frameInset" width="375" height="477"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTapOutside:" destination="QPu-iK-Qva" eventType="touchUpInside" id="RTf-jm-HOx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -549,9 +569,10 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rzK-5Z-s9f"/>
-        <segue reference="gkR-vK-io0"/>
-        <segue reference="FpC-E4-9YS"/>
+        <segue reference="mJ0-BP-SDl"/>
+        <segue reference="bcX-uQ-Zdi"/>
+        <segue reference="ikN-sa-O6o"/>
+        <segue reference="Pma-4O-QDh"/>
         <segue reference="4Iy-bS-ZNh"/>
     </inferredMetricsTieBreakers>
 </document>
