@@ -25,6 +25,13 @@
                                     <segue destination="fVt-Us-fpk" kind="modal" animates="NO" id="6dg-J0-wr7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Avv-lu-EGs" userLabel="Sign in!">
+                                <frame key="frameInset" minX="129" minY="524" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="0S7-uY-XEJ" kind="modal" id="mJ0-BP-SDl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -106,13 +113,25 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gYW-Jp-EKD" userLabel="Sign In">
+                                <frame key="frameInset" minY="499" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Hello"/>
+                                <connections>
+                                    <segue destination="QGz-aA-wJ4" kind="push" identifier="newaccountSegue" id="DPZ-Jr-Bhp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f83-pl-bJ0" userLabel="Create Account">
+                                <frame key="frameInset" minY="549" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Dwb-SV-HWs" kind="push" identifier="existingaccountSegue" id="GfA-LM-Www"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="EGT-4B-bEc"/>
-                    <connections>
-                        <segue destination="QGz-aA-wJ4" kind="push" identifier="newaccountSegue" id="9Am-vt-q76"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QbB-UM-aYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +140,7 @@
         <!--Create Account Form View Controller-->
         <scene sceneID="1ks-aW-eL3">
             <objects>
-                <viewController id="QGz-aA-wJ4" userLabel="Create Account Form View Controller" customClass="CreateAccountFormViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QGz-aA-wJ4" userLabel="Create Account Form View Controller" customClass="SignedOutViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dX1-vq-qmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +153,7 @@
                                 <frame key="frameInset" minY="11" width="117" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="onTapWelcome:" destination="QGz-aA-wJ4" eventType="touchUpInside" id="2A7-aq-gcb"/>
+                                    <action selector="onTapWelcome:" destination="QGz-aA-wJ4" eventType="touchUpInside" id="HEI-XG-1yg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -211,7 +230,7 @@
         <!--Sign In Form View Controller-->
         <scene sceneID="MQV-NK-ieL">
             <objects>
-                <viewController id="Dwb-SV-HWs" userLabel="Sign In Form View Controller" customClass="SignInFormViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dwb-SV-HWs" userLabel="Sign In Form View Controller" customClass="SignedOutViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WCn-Zb-1p9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,6 +244,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="didPressWelcome:" destination="Dwb-SV-HWs" eventType="touchUpInside" id="jOy-61-g5o"/>
+                                    <action selector="onTapWelcome2:" destination="Dwb-SV-HWs" eventType="touchUpInside" id="kVG-kd-r4c"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -250,4 +270,8 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="rzK-5Z-s9f"/>
+        <segue reference="GfA-LM-Www"/>
+    </inferredMetricsTieBreakers>
 </document>
