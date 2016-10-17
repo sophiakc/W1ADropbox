@@ -1,5 +1,5 @@
 //
-//  SignInFormViewController.swift
+//  Onboarding2ViewController.swift
 //  W1assDropbox
 //
 //  Created by Sophia KC on 16/10/16.
@@ -8,17 +8,16 @@
 
 import UIKit
 
-class SignInFormViewController: UIViewController {
+class Onboarding2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
     }
-    
-    @IBAction func didPressWelcome(_ sender: AnyObject) {
-        navigationController!.popViewController(animated: true)
-    }
 
     
+    @IBAction func onTapPrevious(_ sender: AnyObject) {
+        dismiss(animated: false, completion: nil)
+    }
 }
