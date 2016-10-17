@@ -12,6 +12,11 @@
 		7E753C691DB4516D00EBE4A3 /* SignedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */; };
 		7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */; };
 		7E753C6D1DB4569D00EBE4A3 /* Onboarding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */; };
+		7E753C6F1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */; };
+		7E753C711DB4634400EBE4A3 /* CreateAccountPwd2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C701DB4634400EBE4A3 /* CreateAccountPwd2ViewController.swift */; };
+		7E753C731DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C721DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift */; };
+		7E753C751DB4638800EBE4A3 /* SignInInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */; };
+		7E753C771DB463A500EBE4A3 /* SignInTroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */; };
 		7E91B0EA1DB282610003CFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91B0E91DB282610003CFD0 /* AppDelegate.swift */; };
 		7E91B0EC1DB282610003CFD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91B0EB1DB282610003CFD0 /* ViewController.swift */; };
 		7E91B0EF1DB282610003CFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E91B0ED1DB282610003CFD0 /* Main.storyboard */; };
@@ -44,6 +49,11 @@
 		7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedOutViewController.swift; sourceTree = "<group>"; };
 		7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewController.swift; sourceTree = "<group>"; };
 		7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding2ViewController.swift; sourceTree = "<group>"; };
+		7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPwd1ViewController.swift; sourceTree = "<group>"; };
+		7E753C701DB4634400EBE4A3 /* CreateAccountPwd2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPwd2ViewController.swift; sourceTree = "<group>"; };
+		7E753C721DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreeTermsServiceViewController.swift; sourceTree = "<group>"; };
+		7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInInputsViewController.swift; sourceTree = "<group>"; };
+		7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTroubleViewController.swift; sourceTree = "<group>"; };
 		7E91B0E61DB282610003CFD0 /* W1assDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W1assDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E91B0E91DB282610003CFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E91B0EB1DB282610003CFD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +154,11 @@
 				7E753C681DB4516D00EBE4A3 /* SignedOutViewController.swift */,
 				7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */,
 				7E753C6C1DB4569D00EBE4A3 /* Onboarding2ViewController.swift */,
+				7E753C6E1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift */,
+				7E753C701DB4634400EBE4A3 /* CreateAccountPwd2ViewController.swift */,
+				7E753C721DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift */,
+				7E753C741DB4638800EBE4A3 /* SignInInputsViewController.swift */,
+				7E753C761DB463A500EBE4A3 /* SignInTroubleViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -284,11 +299,16 @@
 			files = (
 				7E753C671DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift in Sources */,
 				7E753C6D1DB4569D00EBE4A3 /* Onboarding2ViewController.swift in Sources */,
+				7E753C751DB4638800EBE4A3 /* SignInInputsViewController.swift in Sources */,
 				7E753C691DB4516D00EBE4A3 /* SignedOutViewController.swift in Sources */,
+				7E753C771DB463A500EBE4A3 /* SignInTroubleViewController.swift in Sources */,
+				7E753C731DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift in Sources */,
 				7E753C571DB4294800EBE4A3 /* CreateAccountRootViewController.swift in Sources */,
+				7E753C6F1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift in Sources */,
 				7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */,
 				7E91B0EC1DB282610003CFD0 /* ViewController.swift in Sources */,
 				7E91B0EA1DB282610003CFD0 /* AppDelegate.swift in Sources */,
+				7E753C711DB4634400EBE4A3 /* CreateAccountPwd2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
