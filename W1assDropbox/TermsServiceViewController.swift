@@ -1,5 +1,5 @@
 //
-//  CreateAccountPwd1ViewController.swift
+//  TermsServiceViewController.swift
 //  W1assDropbox
 //
 //  Created by Sophia KC on 16/10/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountPwd1ViewController: UIViewController {
+class TermsServiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,8 +16,7 @@ class CreateAccountPwd1ViewController: UIViewController {
         
     }
 
-    
-    @IBAction func onTapWelcome(_ sender: UIButton) {
+    @IBAction func onTapDone(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
     

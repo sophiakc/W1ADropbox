@@ -16,9 +16,8 @@ class CreateAccountPwd2ViewController: UIViewController {
         
     }
 
-    
 
     @IBAction func onTapWelcome(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: false, completion: nil)
     }
 }
