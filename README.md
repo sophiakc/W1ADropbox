@@ -33,7 +33,7 @@ Total time spent: **10:30** cumulated hours
 
 ## Video Walkthrough
 
-![gif of Dropbox app](dropbox.gif)
+![gif of Dropbox app](Dropbox.gif)
 
 
 
