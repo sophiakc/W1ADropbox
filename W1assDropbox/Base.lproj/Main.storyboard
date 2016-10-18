@@ -551,7 +551,7 @@
             </objects>
             <point key="canvasLocation" x="3620.5" y="1909.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Photos-->
         <scene sceneID="HDi-eK-TzY">
             <objects>
                 <viewController id="Fdk-ZZ-m8l" sceneMemberID="viewController">
@@ -559,27 +559,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" directionalLockEnabled="YES" bounces="NO" alwaysBounceVertical="YES" id="OfI-kC-7qr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="empty_photos" id="3m7-ft-77R">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="empty_photos" id="akh-Ek-dVS">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="667"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5dh-jk-ooD"/>
+                    <navigationItem key="navigationItem" title="Photos" id="5dh-jk-ooD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZyC-Ys-yMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5340" y="1066"/>
+            <point key="canvasLocation" x="5339.5" y="1065.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Files-->
         <scene sceneID="kvM-Fx-Alq">
             <objects>
                 <viewController id="Wcc-Av-6SN" sceneMemberID="viewController">
@@ -587,26 +581,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="5gw-c4-JLk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="empty_files" id="xwe-qB-sD3">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="empty_files" id="XGr-3t-Zn7">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="667"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Y3U-EP-ZdW"/>
+                    <navigationItem key="navigationItem" title="Files" id="Y3U-EP-ZdW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jz-kA-WoQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4837" y="1073"/>
+            <point key="canvasLocation" x="4836.5" y="1072.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorites-->
         <scene sceneID="QIy-Yb-aOd">
             <objects>
                 <viewController id="LBr-tC-w3G" sceneMemberID="viewController">
@@ -614,26 +602,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="Okm-sh-QGI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="empty_favorites" id="hV1-6Y-RLm">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="empty_favorites" id="pYu-Ok-FzR">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="667"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PqU-sj-a2s"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="PqU-sj-a2s"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2UZ-Ec-EAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5862" y="1073"/>
+            <point key="canvasLocation" x="5861.5" y="1072.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="xbC-Ad-hc6">
             <objects>
                 <viewController id="Zqj-0w-ryZ" sceneMemberID="viewController">
@@ -652,9 +634,9 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wMR-tj-EjP"/>
+                    <navigationItem key="navigationItem" title="Settings" id="wMR-tj-EjP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiA-AE-lMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -786,9 +768,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="mJ0-BP-SDl"/>
-        <segue reference="bcX-uQ-Zdi"/>
-        <segue reference="ikN-sa-O6o"/>
-        <segue reference="tpL-0h-D6E"/>
+        <segue reference="FpC-E4-9YS"/>
+        <segue reference="gkR-vK-io0"/>
         <segue reference="qiB-CX-JHh"/>
+        <segue reference="tpL-0h-D6E"/>
     </inferredMetricsTieBreakers>
 </document>
