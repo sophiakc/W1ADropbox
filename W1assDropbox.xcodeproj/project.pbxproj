@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E185E411DB59E4A0081E1C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E185E401DB59E4A0081E1C9 /* SettingsViewController.swift */; };
 		7E753C571DB4294800EBE4A3 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C561DB4294800EBE4A3 /* CreateAccountRootViewController.swift */; };
 		7E753C671DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C661DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift */; };
 		7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E185E401DB59E4A0081E1C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7E753C561DB4294800EBE4A3 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		7E753C661DB43D2B00EBE4A3 /* SignInAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAccountRootViewController.swift; sourceTree = "<group>"; };
 		7E753C6A1DB4564800EBE4A3 /* Onboarding1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				7E753C781DB46AED00EBE4A3 /* TermsServiceViewController.swift */,
 				7E753C7A1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift */,
 				7E753C7C1DB4A0B000EBE4A3 /* SignInFormViewController.swift */,
+				7E185E401DB59E4A0081E1C9 /* SettingsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				7E753C771DB463A500EBE4A3 /* SignInTroubleViewController.swift in Sources */,
 				7E753C731DB4636700EBE4A3 /* AgreeTermsServiceViewController.swift in Sources */,
 				7E753C571DB4294800EBE4A3 /* CreateAccountRootViewController.swift in Sources */,
+				7E185E411DB59E4A0081E1C9 /* SettingsViewController.swift in Sources */,
 				7E753C7B1DB4A08900EBE4A3 /* CreateAccountFormViewController.swift in Sources */,
 				7E753C6F1DB462B400EBE4A3 /* CreateAccountPwd1ViewController.swift in Sources */,
 				7E753C6B1DB4564800EBE4A3 /* Onboarding1ViewController.swift in Sources */,

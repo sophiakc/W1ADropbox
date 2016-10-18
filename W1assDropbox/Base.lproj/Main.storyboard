@@ -573,7 +573,7 @@
             </objects>
             <point key="canvasLocation" x="5339.5" y="1065.5"/>
         </scene>
-        <!--Files-->
+        <!--Dropbox-->
         <scene sceneID="kvM-Fx-Alq">
             <objects>
                 <viewController id="Wcc-Av-6SN" sceneMemberID="viewController">
@@ -588,7 +588,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Files" id="Y3U-EP-ZdW"/>
+                    <navigationItem key="navigationItem" title="Dropbox" id="Y3U-EP-ZdW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jz-kA-WoQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -615,16 +615,16 @@
             </objects>
             <point key="canvasLocation" x="5861.5" y="1072.5"/>
         </scene>
-        <!--Settings-->
+        <!--Settings View Controller-->
         <scene sceneID="xbC-Ad-hc6">
             <objects>
-                <viewController id="Zqj-0w-ryZ" sceneMemberID="viewController">
+                <viewController id="Zqj-0w-ryZ" userLabel="Settings View Controller" customClass="SettingsViewController" customModule="W1assDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YgW-3Y-u9E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="2Ic-sZ-7Lq">
-                                <frame key="frameInset" width="375" height="667"/>
+                                <frame key="frameInset" minY="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="04y-0X-hJT">
@@ -637,10 +637,14 @@
                         <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="wMR-tj-EjP"/>
+                    <connections>
+                        <outlet property="imageView" destination="04y-0X-hJT" id="LcF-yD-cbt"/>
+                        <outlet property="scrollView" destination="2Ic-sZ-7Lq" id="4EI-hG-sIa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiA-AE-lMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6435" y="1073"/>
+            <point key="canvasLocation" x="6434.5" y="1072.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="RR8-TY-3ef">
