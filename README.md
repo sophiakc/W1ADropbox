@@ -42,6 +42,11 @@ Total time spent: **10:30** cumulated hours
 
 [Red] Milestone #3: had hard time understanding how to link the programming file of the view, mess up and spent time solving the mistakes :-)
 
+[Orange] Think about the app as a whole, even if all steps are not detailed in the instructions
+
+[Green] Feel good about struggling and making it to the end of required features
+
+
 
 ## License
 
