@@ -29,7 +29,7 @@
                                 <frame key="frameInset" minX="129" minY="524" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="0S7-uY-XEJ" kind="modal" animates="NO" id="mJ0-BP-SDl"/>
+                                    <segue destination="xj7-23-QbI" kind="modal" animates="NO" id="C1K-Fz-YT7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sWO-Jg-N2B" userLabel="Previous">
-                                <frame key="frameInset" minY="567" width="194" height="101"/>
+                                <frame key="frameInset" minY="582" width="194" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onTapPrevious:" destination="r8M-08-MQu" eventType="touchUpInside" id="rnu-nT-Qyf"/>
@@ -642,11 +642,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="04y-0X-hJT">
-                                        <rect key="frame" x="0.0" y="-449" width="375" height="906"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OLG-DI-wcu" userLabel="Sign Out from Dropbox">
-                                        <rect key="frame" x="0.0" y="363" width="375" height="53"/>
+                                        <rect key="frame" x="0.0" y="748" width="375" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <segue destination="xj7-23-QbI" kind="modal" animates="NO" id="OBU-cO-EG8"/>
@@ -840,11 +840,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="dFc-uU-G4V">
-                                        <rect key="frame" x="0.0" y="-386" width="375" height="906"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JOk-Pc-3if" userLabel="Sign Out from Dropbox">
-                                        <rect key="frame" x="-2" y="426" width="375" height="53"/>
+                                        <rect key="frame" x="-2" y="748" width="375" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <segue destination="xj7-23-QbI" kind="modal" id="NQl-iw-crJ"/>
@@ -994,7 +994,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="gkR-vK-io0"/>
-        <segue reference="mJ0-BP-SDl"/>
         <segue reference="FpC-E4-9YS"/>
         <segue reference="qiB-CX-JHh"/>
         <segue reference="tpL-0h-D6E"/>
