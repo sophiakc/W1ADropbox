@@ -4,22 +4,22 @@
 
 Purpose: use the techniques from this week classes to implement the Dropbox app flow from the signed out state to the basic signed in state, using Xcode.
 
-[Assets](https://www.dropbox.com/s/ok006z7ijb8vvdb/Dropbox%20Assets.zip)
+[Download Assets](https://www.dropbox.com/s/ok006z7ijb8vvdb/Dropbox%20Assets.zip)
 
 Submitted by: [**Sophia Kecir Camper**](http://www.sophiakc.com)
 
-Total time spent: **3:30** cumulated hours
+Total time spent: **10:30** cumulated hours
 
 ## Required User Stories
-* [X] User can tap through the 3 welcome screens [Time spent: 1:00]
-* [ ] User can follow the create user flow: [Time spent: 5:00]
-	* [X] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account
-	* [X] Before creating the account, user can choose to read the terms of service.
-	* [ ] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
-	* [ ] User can log out from the Settings screen.
-* [ ] User can follow the sign in flow: [Time spent: 1:00]
-	* [X] User can tap the area for "Having trouble signing in?"
-	* [ ] User can log out from the Settings screen.
+* [X] User can tap through the 3 welcome screens (Milestone #1, #2) [Time spent: 1:00]
+* [X] User can follow the create user flow: [Time spent: 8:30]
+	* [X] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account (Milestone #3) [Time spent: 5:00]
+	* [X] Before creating the account, user can choose to read the terms of service (Milestone #4) [Time spent: 0:30]
+	* [X] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen (Milestone #5, #6) [Time spent: 3:00 total]
+	* [X] User can log out from the Settings screen (Milestone #7) [Time spent: 0:30]
+* [X] User can follow the sign in flow: [Time spent: 1:00]
+	* [X] User can tap the area for "Having trouble signing in?" [Time spent: 0:30]
+	* [X] User can log out from the Settings screen (Milestone #7) [Time spent: 0:30]
 
 ## Optional User Stories
 * [ ] User can view a detail view for one of the files and favorite the file [Time spent: ]
@@ -33,13 +33,14 @@ Total time spent: **3:30** cumulated hours
 
 ## Video Walkthrough
 
-![gif of tipcalculator app](tipcalculatorappv1.gif)
+![gif of Dropbox app](dropbox.gif)
 
 
 
 ## Notes / Challenges encountered while building the app:
 [Red]: got stuck [Orange]: takeaways [Green]: wow moment
 
+[Red] Milestone #3: had hard time understanding how to link the programming file of the view, mess up and spent time solving the mistakes :-)
 
 
 ## License
