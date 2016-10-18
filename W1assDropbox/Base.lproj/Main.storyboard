@@ -642,9 +642,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="04y-0X-hJT">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="906"/>
+                                        <rect key="frame" x="0.0" y="-449" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OLG-DI-wcu" userLabel="Sign Out from Dropbox">
+                                        <rect key="frame" x="0.0" y="363" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="xj7-23-QbI" kind="modal" animates="NO" id="OBU-cO-EG8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -832,10 +839,17 @@
                                 <frame key="frameInset" minY="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="settings" id="dFc-uU-G4V">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="906"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="dFc-uU-G4V">
+                                        <rect key="frame" x="0.0" y="-386" width="375" height="906"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JOk-Pc-3if" userLabel="Sign Out from Dropbox">
+                                        <rect key="frame" x="-2" y="426" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="xj7-23-QbI" kind="modal" id="NQl-iw-crJ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -985,5 +999,6 @@
         <segue reference="qiB-CX-JHh"/>
         <segue reference="tpL-0h-D6E"/>
         <segue reference="Cpg-K3-uf5"/>
+        <segue reference="NQl-iw-crJ"/>
     </inferredMetricsTieBreakers>
 </document>
