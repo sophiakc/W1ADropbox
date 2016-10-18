@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  SettingsSignInViewController.swift
 //  W1assDropbox
 //
 //  Created by Sophia KC on 17/10/2016.
@@ -8,24 +8,16 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsSignInViewController: UIViewController {
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    
     @IBOutlet weak var imageView: UIImageView!
-    
+    @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         scrollView.contentSize = imageView.frame.size
 
-     
     }
 
-    
-
+   
 }
-
-
-
-
